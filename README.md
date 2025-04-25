@@ -34,3 +34,97 @@ Antes de rodar o projeto, certifique-se de ter as seguintes ferramentas instalad
 - Java 11 ou superior.
 
 - Gradle (ou Maven, se preferir).
+
+## Passos
+
+- 1 Clone este repositório:
+
+      git clone https://github.com/seu-usuario/first-spring-app.git
+      cd first-spring-app
+
+- 2 Compile e execute o projeto com Gradle:
+
+      ./gradlew bootRun
+
+- 3 Se você estiver utilizando o Windows, execute:
+
+      gradlew.bat bootRun
+
+### A API estará disponível em http://localhost:8080.
+
+## Endpoints
+
+- ## 1. GET /
+
+- ### Retorna uma mensagem de saudação simples.
+
+- ### Exemplo de resposta:
+
+      {
+        "message": "Hello World, esta é minha primeira API em Spring Boot."
+      }
+
+- ## 2. GET /seila
+
+- ### Retorna uma mensagem de saudação simples.
+
+- ### Exemplo de resposta:
+
+      {
+        "message": "Aprenda Java !!!"
+      }
+
+- ## 2. GET /hello
+
+- ### Retorna uma mensagem de saudação simples.
+
+- ### Exemplo de resposta:
+
+      {
+        "message": "Hello World!"
+      }
+
+
+- ## 2. GET /hello/{name}
+
+- ### Retorna uma mensagem de saudação simples.
+
+- ### Exemplo de resposta:
+
+      {
+        "message": "Hello " + name + " !"
+      }
+
+
+- ## 2. POST /routePost
+
+- ### Envia uma mensagem personalizada. Como é um rota POST, tem que enviar algo no corpo da requisição.
+
+- ### Exemplo de corpo da requisição:
+
+      {
+        "message": "Ola, teste teste"
+      }
+
+- ### Exemplo de resposta:
+  
+      {
+        "name": "Iae meu broder Ola, teste teste"
+      }
+
+
+- ## 2. POST /routePostDois
+
+- ### Envia uma mensagem personalizada. Como é um rota POST, tem que enviar algo no corpo da requisição.
+
+- ### Exemplo de corpo da requisição:
+
+      {
+        "message": "Ola, teste teste"
+      }
+
+- ### Exemplo de resposta:
+  
+      {
+        "name": "Fala meu broder javeiro Ola, teste teste"
+      }
