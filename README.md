@@ -8,11 +8,11 @@ Este repositório contém uma API simples construída utilizando o Spring Boot. 
 
 - Exposição de endpoints RESTful.
 
-- Operações simples de CRUD (Create, Read, Update, Delete). -> "Implementação"
+- Operações simples de CRUD (Create, Read, Update, Delete). -> "**Implementação**"
 
-- Conexão com o banco de dados (H2 por padrão). -> "Implementação"
+- Conexão com o banco de dados (H2 por padrão). -> "**Implementação**"
 
-- Validação simples de entrada de dados. -> "Implementação"
+- Validação simples de entrada de dados. -> "**Implementação**"
 
 ## Tecnologias Utilizadas
 
@@ -20,16 +20,16 @@ Este repositório contém uma API simples construída utilizando o Spring Boot. 
 
 - Spring Web - Para criação de APIs RESTful.
 
-- Spring Data JPA - Para interação com banco de dados.
+- Spring Data JPA - Para interação com banco de dados. -> "**Implementação**"
 
-- H2 Database - Banco de dados em memória (pode ser substituído por outros bancos).
+- H2 Database - Banco de dados em memória (pode ser substituído por outros bancos). -> "**Implementação**"
 
-- Lombok - Para reduzir o boilerplate de código (se aplicável).
+- Lombok - Para reduzir o boilerplate de código (se aplicável). -> "**Implementação**"
 
 ## Como Rodar o Projeto
 ### Pré-requisitos
 
-Antes de rodar o projeto, certifique-se de ter as seguintes ferramentas instaladas:
+#### Antes de rodar o projeto, certifique-se de ter as seguintes ferramentas instaladas:
 
 - Java 11 ou superior.
 
@@ -37,16 +37,16 @@ Antes de rodar o projeto, certifique-se de ter as seguintes ferramentas instalad
 
 ## Passos
 
-- 1 Clone este repositório:
+- ### 1 Clone este repositório:
 
       git clone https://github.com/seu-usuario/first-spring-app.git
       cd first-spring-app
 
-- 2 Compile e execute o projeto com Gradle:
+- ### 2 Compile e execute o projeto com Gradle:
 
       ./gradlew bootRun
 
-- 3 Se você estiver utilizando o Windows, execute:
+- ### 3 Se você estiver utilizando o Windows, execute:
 
       gradlew.bat bootRun
 
@@ -87,14 +87,17 @@ Antes de rodar o projeto, certifique-se de ter as seguintes ferramentas instalad
 
 - ## 2. GET /hello/{name}
 
-- ### Retorna uma mensagem de saudação simples.
+- ### Retorna uma mensagem de saudação simples. O parâmetro passado no path/url, irá refletir na resposta da mensagem. 
+
+- ### Exemplo:
+
+      http://127.0.0.1:8080/hello/Kelven
 
 - ### Exemplo de resposta:
 
       {
-        "message": "Hello " + name + " !"
+        "message": "Hello Kelven!"
       }
-
 
 - ## 2. POST /routePost
 
@@ -128,3 +131,6 @@ Antes de rodar o projeto, certifique-se de ter as seguintes ferramentas instalad
       {
         "name": "Fala meu broder javeiro Ola, teste teste"
       }
+
+## Autores
+- [@Rodrigo_Kelven](https://github.com/Rodrigo-Kelven)
