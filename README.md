@@ -2,6 +2,8 @@
 
 ![Java](https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=ffffff)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 
 Este repositório contém uma API simples construída utilizando o Spring Boot. O objetivo deste projeto é fornecer um ponto de partida básico para a construção de APIs RESTful com Spring Boot.
 ## Funcionalidades
@@ -39,16 +41,12 @@ Este repositório contém uma API simples construída utilizando o Spring Boot. 
 
 - ### 1 Clone este repositório:
 
-      git clone https://github.com/seu-usuario/first-spring-app.git
-      cd first-spring-app
+      git clone https://github.com/Rodrigo-Kelven/Api_Simple_Spring-Boot
+      cd Api_Simple_Spring-Boot/first-spring-app
 
 - ### 2 Compile e execute o projeto com Gradle:
-
-      ./gradlew bootRun
-
-- ### 3 Se você estiver utilizando o Windows, execute:
-
-      gradlew.bat bootRun
+      chmod +x script.sh
+      ./script.sh
 
 ### A API estará disponível em http://localhost:8080.
 
